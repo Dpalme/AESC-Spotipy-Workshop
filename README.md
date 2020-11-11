@@ -86,9 +86,9 @@ o puedes hacer todo eso en una linea
 ```
 lista_uris = [cancion['uri'] for cancion in respuesta['items']]
 ```
-7. Crea una playlist
+7. Crea una playlist llamada `Top Canciones`
 ```
-sp.user_playlist_create(username, name, public=True)
+sp.user_playlist_create(username, "Top Canciones", public=True)
 ```
 8. Obten su uri
 ```
